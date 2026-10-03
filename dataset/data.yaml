@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+nc: 5
+names:
+  0: motorcycle
+  1: driver_helmet
+  2: driver_no_helmet
+  3: passenger_helmet
+  4: passenger_no_helmet
+roboflow:
+  workspace: md-asif-chowdhury
+  project: motorcycle-safety-benchmark
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/md-asif-chowdhury/motorcycle-safety-benchmark/dataset
